@@ -24,11 +24,8 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
 
 # Executables
-*.exe
 *.out
 *.app
 *.x
@@ -53,8 +50,7 @@
 *.pch
 
 # Libraries
-*.lib
-*.a
+
 *.la
 *.lo
 
@@ -65,7 +61,6 @@
 *.dylib
 
 # Executables
-*.exe
 *.out
 *.app
 *.i*86
@@ -566,5 +561,7 @@ $RECYCLE.BIN/
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-!**/.keep
-!**/*.exe
+#keep some things
+!obj/
+!bin/
+!external

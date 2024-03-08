@@ -1,0 +1,8 @@
+Window Assignment1Soln 1280 800
+Font assets/Orbitron.ttf 18 1.0 1.0 1.0
+Circle CGreen 100 100 -3 3 0.0 1.0 0.0 50
+Circle CCyan 400 600 -2 1 0.0 1.0 1.0 75
+Circle CYellow 100 600 -3 4 1.0 1.0 0.0 25
+Rectangle RRed 200 200 4 4 1.0 0.0 0.0 50 25
+Rectangle RMagenta 1000 200 -4 1 1.0 0.0 1.0 100 125
+Rectangle RBlue 400 400 1.5 2 0.0 0.0 1.0 200 200
