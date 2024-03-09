@@ -28,7 +28,7 @@ LDFRAMEWORKS = -framework CoreVideo -framework IOKit -framework Cocoa -framework
 endif
 else ifeq ($(uname_s),Linux)
 RAYLIB=${EXLIBDIR}/libraylibx64linux.a
-LDLIBS= -L./${EXLIBDIR} -lraylibx64linux
+LDLIBS= -L./${EXLIBDIR} -lraylibx64linux -ldl
 LDFRAMEWORKS = 
 endif
 
