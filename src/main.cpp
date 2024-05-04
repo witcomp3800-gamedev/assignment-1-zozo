@@ -16,6 +16,7 @@ int main(void)
     const int screenWidth = 1280;
     const int screenHeight = 800;
 
+    SetConfigFlags(FLAG_WINDOW_HIGHDPI);
     InitWindow(screenWidth, screenHeight, "Assignment 1 Starter Code");
     
     //initialize the raylib ImGui backend
